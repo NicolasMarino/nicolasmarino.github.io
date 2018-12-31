@@ -53,31 +53,3 @@ $(document).ready(function() {
         });        
     }, 10)    
 });
-
-// bx slider to screens
-
-$(function(){
-    $('.bxslider').bxSlider({
-        slideWidth: 292.5,
-        auto: true,
-        minSlides: 1, 
-        maxSlides: 3, 
-        slideMargin: 50
-    });
-  });
-// Counter
-$(document).ready(function() {
-    
-    $('.counter-num').counterUp({
-        delay: 10,
-        time: 2000
-    });
-});
-// Animation / initialize wow
-
-$(document).ready(function() {
-    'use strict';
-    new WOW().init();
-});
-
-
